@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0A0BA02893ED9E00AEBC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0B9F2893ED9E00AEBC72 /* AppDelegate.swift */; };
+		FA0A0BA22893ED9E00AEBC72 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BA12893ED9E00AEBC72 /* GameViewController.swift */; };
+		FA0A0BA52893ED9E00AEBC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0BA32893ED9E00AEBC72 /* Main.storyboard */; };
+		FA0A0BA82893ED9E00AEBC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0BA62893ED9E00AEBC72 /* LaunchScreen.storyboard */; };
+		FA0A0BAD2893ED9E00AEBC72 /* BNBCourcesGame.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FA0A0BAC2893ED9E00AEBC72 /* BNBCourcesGame.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA0A0BB32893ED9E00AEBC72 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0BB12893ED9E00AEBC72 /* Interface.storyboard */; };
+		FA0A0BBA2893ED9E00AEBC72 /* BNBCourcesGame Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA0A0BB92893ED9E00AEBC72 /* BNBCourcesGame Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA0A0BBF2893ED9E00AEBC72 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BBE2893ED9E00AEBC72 /* InterfaceController.swift */; };
+		FA0A0BC12893ED9E00AEBC72 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BC02893ED9E00AEBC72 /* ExtensionDelegate.swift */; };
+		FA0A0BCA2893ED9F00AEBC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BC92893ED9F00AEBC72 /* AppDelegate.swift */; };
+		FA0A0BCC2893ED9F00AEBC72 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BCB2893ED9F00AEBC72 /* GameViewController.swift */; };
+		FA0A0BCF2893ED9F00AEBC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0BCD2893ED9F00AEBC72 /* Main.storyboard */; };
+		FA0A0BD22893ED9F00AEBC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0BD02893ED9F00AEBC72 /* LaunchScreen.storyboard */; };
+		FA0A0BDB2893ED9F00AEBC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BDA2893ED9F00AEBC72 /* AppDelegate.swift */; };
+		FA0A0BDD2893ED9F00AEBC72 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0BDC2893ED9F00AEBC72 /* GameViewController.swift */; };
+		FA0A0BE02893ED9F00AEBC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0BDE2893ED9F00AEBC72 /* Main.storyboard */; };
+		FA0A0BE32893ED9F00AEBC72 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B942893ED8F00AEBC72 /* Actions.sks */; };
+		FA0A0BE42893ED9F00AEBC72 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B942893ED8F00AEBC72 /* Actions.sks */; };
+		FA0A0BE52893ED9F00AEBC72 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B942893ED8F00AEBC72 /* Actions.sks */; };
+		FA0A0BE62893ED9F00AEBC72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B952893ED8F00AEBC72 /* GameScene.sks */; };
+		FA0A0BE72893ED9F00AEBC72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B952893ED8F00AEBC72 /* GameScene.sks */; };
+		FA0A0BE82893ED9F00AEBC72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B952893ED8F00AEBC72 /* GameScene.sks */; };
+		FA0A0BE92893ED9F00AEBC72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B952893ED8F00AEBC72 /* GameScene.sks */; };
+		FA0A0BEA2893ED9F00AEBC72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0B962893ED8F00AEBC72 /* GameScene.swift */; };
+		FA0A0BEB2893ED9F00AEBC72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0B962893ED8F00AEBC72 /* GameScene.swift */; };
+		FA0A0BEC2893ED9F00AEBC72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0B962893ED8F00AEBC72 /* GameScene.swift */; };
+		FA0A0BED2893ED9F00AEBC72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A0B962893ED8F00AEBC72 /* GameScene.swift */; };
+		FA0A0BEE2893ED9F00AEBC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B972893ED9E00AEBC72 /* Assets.xcassets */; };
+		FA0A0BEF2893ED9F00AEBC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B972893ED9E00AEBC72 /* Assets.xcassets */; };
+		FA0A0BF02893ED9F00AEBC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B972893ED9E00AEBC72 /* Assets.xcassets */; };
+		FA0A0BF12893ED9F00AEBC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A0B972893ED9E00AEBC72 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0A0BAE2893ED9E00AEBC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0A0B8F2893ED8F00AEBC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0A0BAB2893ED9E00AEBC72;
+			remoteInfo = "BNBCourcesGame watchOS App";
+		};
+		FA0A0BBB2893ED9E00AEBC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0A0B8F2893ED8F00AEBC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0A0BB82893ED9E00AEBC72;
+			remoteInfo = "BNBCourcesGame watchOS App Extension";
+		};
+		FA8B912C2894684C00B2A8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8B91232894684C00B2A8D0 /* BNBCourcesIOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA0A0C542893F01C00AEBC72;
+			remoteInfo = BNBCourcesIOS;
+		};
+		FA8B912E2894684C00B2A8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8B91232894684C00B2A8D0 /* BNBCourcesIOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA0A0C6D2893F02300AEBC72;
+			remoteInfo = BNBCourcesIOSTests;
+		};
+		FA8B91302894684C00B2A8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8B91232894684C00B2A8D0 /* BNBCourcesIOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA0A0C782893F02300AEBC72;
+			remoteInfo = BNBCourcesIOSUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0A0BF72893ED9F00AEBC72 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA0A0BBA2893ED9E00AEBC72 /* BNBCourcesGame Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BFB2893ED9F00AEBC72 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FA0A0BAD2893ED9E00AEBC72 /* BNBCourcesGame.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA0A0B942893ED8F00AEBC72 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FA0A0B952893ED8F00AEBC72 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FA0A0B962893ED8F00AEBC72 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FA0A0B972893ED9E00AEBC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0A0B9C2893ED9E00AEBC72 /* BNBCourcesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNBCourcesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A0B9F2893ED9E00AEBC72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA0A0BA12893ED9E00AEBC72 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA0A0BA42893ED9E00AEBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0A0BA72893ED9E00AEBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0A0BA92893ED9E00AEBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A0BAC2893ED9E00AEBC72 /* BNBCourcesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNBCourcesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A0BB22893ED9E00AEBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FA0A0BB42893ED9E00AEBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A0BB92893ED9E00AEBC72 /* BNBCourcesGame Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BNBCourcesGame Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A0BBE2893ED9E00AEBC72 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FA0A0BC02893ED9E00AEBC72 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FA0A0BC22893ED9E00AEBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A0BC72893ED9F00AEBC72 /* BNBCourcesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNBCourcesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A0BC92893ED9F00AEBC72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA0A0BCB2893ED9F00AEBC72 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA0A0BCE2893ED9F00AEBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0A0BD12893ED9F00AEBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0A0BD32893ED9F00AEBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A0BD82893ED9F00AEBC72 /* BNBCourcesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNBCourcesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A0BDA2893ED9F00AEBC72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA0A0BDC2893ED9F00AEBC72 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA0A0BDF2893ED9F00AEBC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0A0BE12893ED9F00AEBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A0BE22893ED9F00AEBC72 /* BNBCourcesGame_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BNBCourcesGame_macOS.entitlements; sourceTree = "<group>"; };
+		FA8B91232894684C00B2A8D0 /* BNBCourcesIOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BNBCourcesIOS.xcodeproj; path = ../BNBCourcesIOS/BNBCourcesIOS.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0A0B992893ED9E00AEBC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BB62893ED9E00AEBC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BC42893ED9F00AEBC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BD52893ED9F00AEBC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0A0B8E2893ED8F00AEBC72 = {
+			isa = PBXGroup;
+			children = (
+				FA8B91232894684C00B2A8D0 /* BNBCourcesIOS.xcodeproj */,
+				FA0A0B932893ED8F00AEBC72 /* BNBCourcesGame Shared */,
+				FA0A0B9E2893ED9E00AEBC72 /* BNBCourcesGame iOS */,
+				FA0A0BB02893ED9E00AEBC72 /* BNBCourcesGame watchOS App */,
+				FA0A0BBD2893ED9E00AEBC72 /* BNBCourcesGame watchOS App Extension */,
+				FA0A0BC82893ED9F00AEBC72 /* BNBCourcesGame tvOS */,
+				FA0A0BD92893ED9F00AEBC72 /* BNBCourcesGame macOS */,
+				FA0A0B9D2893ED9E00AEBC72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0A0B932893ED8F00AEBC72 /* BNBCourcesGame Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0B942893ED8F00AEBC72 /* Actions.sks */,
+				FA0A0B952893ED8F00AEBC72 /* GameScene.sks */,
+				FA0A0B962893ED8F00AEBC72 /* GameScene.swift */,
+				FA0A0B972893ED9E00AEBC72 /* Assets.xcassets */,
+			);
+			path = "BNBCourcesGame Shared";
+			sourceTree = "<group>";
+		};
+		FA0A0B9D2893ED9E00AEBC72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0B9C2893ED9E00AEBC72 /* BNBCourcesGame.app */,
+				FA0A0BAC2893ED9E00AEBC72 /* BNBCourcesGame.app */,
+				FA0A0BB92893ED9E00AEBC72 /* BNBCourcesGame Extension.appex */,
+				FA0A0BC72893ED9F00AEBC72 /* BNBCourcesGame.app */,
+				FA0A0BD82893ED9F00AEBC72 /* BNBCourcesGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0A0B9E2893ED9E00AEBC72 /* BNBCourcesGame iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0B9F2893ED9E00AEBC72 /* AppDelegate.swift */,
+				FA0A0BA12893ED9E00AEBC72 /* GameViewController.swift */,
+				FA0A0BA32893ED9E00AEBC72 /* Main.storyboard */,
+				FA0A0BA62893ED9E00AEBC72 /* LaunchScreen.storyboard */,
+				FA0A0BA92893ED9E00AEBC72 /* Info.plist */,
+			);
+			path = "BNBCourcesGame iOS";
+			sourceTree = "<group>";
+		};
+		FA0A0BB02893ED9E00AEBC72 /* BNBCourcesGame watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0BB12893ED9E00AEBC72 /* Interface.storyboard */,
+				FA0A0BB42893ED9E00AEBC72 /* Info.plist */,
+			);
+			path = "BNBCourcesGame watchOS App";
+			sourceTree = "<group>";
+		};
+		FA0A0BBD2893ED9E00AEBC72 /* BNBCourcesGame watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0BBE2893ED9E00AEBC72 /* InterfaceController.swift */,
+				FA0A0BC02893ED9E00AEBC72 /* ExtensionDelegate.swift */,
+				FA0A0BC22893ED9E00AEBC72 /* Info.plist */,
+			);
+			path = "BNBCourcesGame watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		FA0A0BC82893ED9F00AEBC72 /* BNBCourcesGame tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0BC92893ED9F00AEBC72 /* AppDelegate.swift */,
+				FA0A0BCB2893ED9F00AEBC72 /* GameViewController.swift */,
+				FA0A0BCD2893ED9F00AEBC72 /* Main.storyboard */,
+				FA0A0BD02893ED9F00AEBC72 /* LaunchScreen.storyboard */,
+				FA0A0BD32893ED9F00AEBC72 /* Info.plist */,
+			);
+			path = "BNBCourcesGame tvOS";
+			sourceTree = "<group>";
+		};
+		FA0A0BD92893ED9F00AEBC72 /* BNBCourcesGame macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A0BDA2893ED9F00AEBC72 /* AppDelegate.swift */,
+				FA0A0BDC2893ED9F00AEBC72 /* GameViewController.swift */,
+				FA0A0BDE2893ED9F00AEBC72 /* Main.storyboard */,
+				FA0A0BE12893ED9F00AEBC72 /* Info.plist */,
+				FA0A0BE22893ED9F00AEBC72 /* BNBCourcesGame_macOS.entitlements */,
+			);
+			path = "BNBCourcesGame macOS";
+			sourceTree = "<group>";
+		};
+		FA8B91242894684C00B2A8D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B912D2894684C00B2A8D0 /* BNBCourcesIOS.app */,
+				FA8B912F2894684C00B2A8D0 /* BNBCourcesIOSTests.xctest */,
+				FA8B91312894684C00B2A8D0 /* BNBCourcesIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0A0B9B2893ED9E00AEBC72 /* BNBCourcesGame iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A0BFC2893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame iOS" */;
+			buildPhases = (
+				FA0A0B982893ED9E00AEBC72 /* Sources */,
+				FA0A0B992893ED9E00AEBC72 /* Frameworks */,
+				FA0A0B9A2893ED9E00AEBC72 /* Resources */,
+				FA0A0BFB2893ED9F00AEBC72 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0A0BAF2893ED9E00AEBC72 /* PBXTargetDependency */,
+			);
+			name = "BNBCourcesGame iOS";
+			productName = "BNBCourcesGame iOS";
+			productReference = FA0A0B9C2893ED9E00AEBC72 /* BNBCourcesGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0A0BAB2893ED9E00AEBC72 /* BNBCourcesGame watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A0BF82893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame watchOS App" */;
+			buildPhases = (
+				FA0A0BAA2893ED9E00AEBC72 /* Resources */,
+				FA0A0BF72893ED9F00AEBC72 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0A0BBC2893ED9E00AEBC72 /* PBXTargetDependency */,
+			);
+			name = "BNBCourcesGame watchOS App";
+			productName = "BNBCourcesGame watchOS App";
+			productReference = FA0A0BAC2893ED9E00AEBC72 /* BNBCourcesGame.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FA0A0BB82893ED9E00AEBC72 /* BNBCourcesGame watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A0BF42893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame watchOS App Extension" */;
+			buildPhases = (
+				FA0A0BB52893ED9E00AEBC72 /* Sources */,
+				FA0A0BB62893ED9E00AEBC72 /* Frameworks */,
+				FA0A0BB72893ED9E00AEBC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BNBCourcesGame watchOS App Extension";
+			productName = "BNBCourcesGame watchOS App Extension";
+			productReference = FA0A0BB92893ED9E00AEBC72 /* BNBCourcesGame Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		FA0A0BC62893ED9F00AEBC72 /* BNBCourcesGame tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A0BFF2893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame tvOS" */;
+			buildPhases = (
+				FA0A0BC32893ED9F00AEBC72 /* Sources */,
+				FA0A0BC42893ED9F00AEBC72 /* Frameworks */,
+				FA0A0BC52893ED9F00AEBC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BNBCourcesGame tvOS";
+			productName = "BNBCourcesGame tvOS";
+			productReference = FA0A0BC72893ED9F00AEBC72 /* BNBCourcesGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0A0BD72893ED9F00AEBC72 /* BNBCourcesGame macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A0C022893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame macOS" */;
+			buildPhases = (
+				FA0A0BD42893ED9F00AEBC72 /* Sources */,
+				FA0A0BD52893ED9F00AEBC72 /* Frameworks */,
+				FA0A0BD62893ED9F00AEBC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BNBCourcesGame macOS";
+			productName = "BNBCourcesGame macOS";
+			productReference = FA0A0BD82893ED9F00AEBC72 /* BNBCourcesGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0A0B8F2893ED8F00AEBC72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FA0A0B9B2893ED9E00AEBC72 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FA0A0BAB2893ED9E00AEBC72 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FA0A0BB82893ED9E00AEBC72 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FA0A0BC62893ED9F00AEBC72 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FA0A0BD72893ED9F00AEBC72 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FA0A0B922893ED8F00AEBC72 /* Build configuration list for PBXProject "BNBCourcesGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0A0B8E2893ED8F00AEBC72;
+			productRefGroup = FA0A0B9D2893ED9E00AEBC72 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA8B91242894684C00B2A8D0 /* Products */;
+					ProjectRef = FA8B91232894684C00B2A8D0 /* BNBCourcesIOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FA0A0B9B2893ED9E00AEBC72 /* BNBCourcesGame iOS */,
+				FA0A0BAB2893ED9E00AEBC72 /* BNBCourcesGame watchOS App */,
+				FA0A0BB82893ED9E00AEBC72 /* BNBCourcesGame watchOS App Extension */,
+				FA0A0BC62893ED9F00AEBC72 /* BNBCourcesGame tvOS */,
+				FA0A0BD72893ED9F00AEBC72 /* BNBCourcesGame macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA8B912D2894684C00B2A8D0 /* BNBCourcesIOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BNBCourcesIOS.app;
+			remoteRef = FA8B912C2894684C00B2A8D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA8B912F2894684C00B2A8D0 /* BNBCourcesIOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BNBCourcesIOSTests.xctest;
+			remoteRef = FA8B912E2894684C00B2A8D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA8B91312894684C00B2A8D0 /* BNBCourcesIOSUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BNBCourcesIOSUITests.xctest;
+			remoteRef = FA8B91302894684C00B2A8D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0A0B9A2893ED9E00AEBC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BE62893ED9F00AEBC72 /* GameScene.sks in Resources */,
+				FA0A0BA52893ED9E00AEBC72 /* Main.storyboard in Resources */,
+				FA0A0BE32893ED9F00AEBC72 /* Actions.sks in Resources */,
+				FA0A0BA82893ED9E00AEBC72 /* LaunchScreen.storyboard in Resources */,
+				FA0A0BEE2893ED9F00AEBC72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BAA2893ED9E00AEBC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BEF2893ED9F00AEBC72 /* Assets.xcassets in Resources */,
+				FA0A0BB32893ED9E00AEBC72 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BB72893ED9E00AEBC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BE72893ED9F00AEBC72 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BC52893ED9F00AEBC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BE82893ED9F00AEBC72 /* GameScene.sks in Resources */,
+				FA0A0BCF2893ED9F00AEBC72 /* Main.storyboard in Resources */,
+				FA0A0BE42893ED9F00AEBC72 /* Actions.sks in Resources */,
+				FA0A0BD22893ED9F00AEBC72 /* LaunchScreen.storyboard in Resources */,
+				FA0A0BF02893ED9F00AEBC72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BD62893ED9F00AEBC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BE02893ED9F00AEBC72 /* Main.storyboard in Resources */,
+				FA0A0BE92893ED9F00AEBC72 /* GameScene.sks in Resources */,
+				FA0A0BF12893ED9F00AEBC72 /* Assets.xcassets in Resources */,
+				FA0A0BE52893ED9F00AEBC72 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0A0B982893ED9E00AEBC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BEA2893ED9F00AEBC72 /* GameScene.swift in Sources */,
+				FA0A0BA22893ED9E00AEBC72 /* GameViewController.swift in Sources */,
+				FA0A0BA02893ED9E00AEBC72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BB52893ED9E00AEBC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BEB2893ED9F00AEBC72 /* GameScene.swift in Sources */,
+				FA0A0BC12893ED9E00AEBC72 /* ExtensionDelegate.swift in Sources */,
+				FA0A0BBF2893ED9E00AEBC72 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BC32893ED9F00AEBC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BEC2893ED9F00AEBC72 /* GameScene.swift in Sources */,
+				FA0A0BCC2893ED9F00AEBC72 /* GameViewController.swift in Sources */,
+				FA0A0BCA2893ED9F00AEBC72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0A0BD42893ED9F00AEBC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0A0BED2893ED9F00AEBC72 /* GameScene.swift in Sources */,
+				FA0A0BDD2893ED9F00AEBC72 /* GameViewController.swift in Sources */,
+				FA0A0BDB2893ED9F00AEBC72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0A0BAF2893ED9E00AEBC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0A0BAB2893ED9E00AEBC72 /* BNBCourcesGame watchOS App */;
+			targetProxy = FA0A0BAE2893ED9E00AEBC72 /* PBXContainerItemProxy */;
+		};
+		FA0A0BBC2893ED9E00AEBC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0A0BB82893ED9E00AEBC72 /* BNBCourcesGame watchOS App Extension */;
+			targetProxy = FA0A0BBB2893ED9E00AEBC72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA0A0BA32893ED9E00AEBC72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A0BA42893ED9E00AEBC72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A0BA62893ED9E00AEBC72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A0BA72893ED9E00AEBC72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A0BB12893ED9E00AEBC72 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A0BB22893ED9E00AEBC72 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A0BCD2893ED9F00AEBC72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A0BCE2893ED9F00AEBC72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A0BD02893ED9F00AEBC72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A0BD12893ED9F00AEBC72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0A0BDE2893ED9F00AEBC72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0A0BDF2893ED9F00AEBC72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0A0BF22893ED9F00AEBC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0A0BF32893ED9F00AEBC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA0A0BF52893ED9F00AEBC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				INFOPLIST_FILE = "BNBCourcesGame watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "BNBCourcesGame Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		FA0A0BF62893ED9F00AEBC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				INFOPLIST_FILE = "BNBCourcesGame watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "BNBCourcesGame Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		FA0A0BF92893ED9F00AEBC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				IBSC_MODULE = BNBCourcesGame_Extension;
+				INFOPLIST_FILE = "BNBCourcesGame watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame.watchkitapp;
+				PRODUCT_NAME = BNBCourcesGame;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		FA0A0BFA2893ED9F00AEBC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				IBSC_MODULE = BNBCourcesGame_Extension;
+				INFOPLIST_FILE = "BNBCourcesGame watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame.watchkitapp;
+				PRODUCT_NAME = BNBCourcesGame;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		FA0A0BFD2893ED9F00AEBC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				INFOPLIST_FILE = "BNBCourcesGame iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame;
+				PRODUCT_NAME = BNBCourcesGame;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0A0BFE2893ED9F00AEBC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				INFOPLIST_FILE = "BNBCourcesGame iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame;
+				PRODUCT_NAME = BNBCourcesGame;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0A0C002893ED9F00AEBC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				INFOPLIST_FILE = "BNBCourcesGame tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame;
+				PRODUCT_NAME = BNBCourcesGame;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		FA0A0C012893ED9F00AEBC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				INFOPLIST_FILE = "BNBCourcesGame tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame;
+				PRODUCT_NAME = BNBCourcesGame;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0A0C032893ED9F00AEBC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BNBCourcesGame macOS/BNBCourcesGame_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BNBCourcesGame macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame;
+				PRODUCT_NAME = BNBCourcesGame;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA0A0C042893ED9F00AEBC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BNBCourcesGame macOS/BNBCourcesGame_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5JX2ZNXC3C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BNBCourcesGame macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = toropynya.BNBCourcesGame;
+				PRODUCT_NAME = BNBCourcesGame;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0A0B922893ED8F00AEBC72 /* Build configuration list for PBXProject "BNBCourcesGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A0BF22893ED9F00AEBC72 /* Debug */,
+				FA0A0BF32893ED9F00AEBC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A0BF42893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A0BF52893ED9F00AEBC72 /* Debug */,
+				FA0A0BF62893ED9F00AEBC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A0BF82893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A0BF92893ED9F00AEBC72 /* Debug */,
+				FA0A0BFA2893ED9F00AEBC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A0BFC2893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A0BFD2893ED9F00AEBC72 /* Debug */,
+				FA0A0BFE2893ED9F00AEBC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A0BFF2893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A0C002893ED9F00AEBC72 /* Debug */,
+				FA0A0C012893ED9F00AEBC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A0C022893ED9F00AEBC72 /* Build configuration list for PBXNativeTarget "BNBCourcesGame macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A0C032893ED9F00AEBC72 /* Debug */,
+				FA0A0C042893ED9F00AEBC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0A0B8F2893ED8F00AEBC72 /* Project object */;
+}

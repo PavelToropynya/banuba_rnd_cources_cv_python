@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../1.Monte Carlo.ipynb">
+   </FileRef>
+   <FileRef
+      location = "group:BNBPythonTests">
+   </FileRef>
+   <FileRef
+      location = "group:BNBPythonSandbox/BNBPythonSandbox.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BNBPythonLib">
+   </FileRef>
+   <FileRef
+      location = "group:BNBCourcesMacOS/BNBCourcesMacOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BNBCourcesGame/../BNBCourcesIOS/BNBCourcesIOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BNBCourcesGame/BNBCourcesGame.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../BNBCources">
+   </FileRef>
+   <FileRef
+      location = "group:../circle_img.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Helpers">
+   </FileRef>
+   <FileRef
+      location = "group:../ImportingLibraries.ipynb">
+   </FileRef>
+   <FileRef
+      location = "group:../instruction.pdf">
+   </FileRef>
+   <FileRef
+      location = "group:../lazyspoon_qr.png">
+   </FileRef>
+   <FileRef
+      location = "group:../README.md">
+   </FileRef>
+   <FileRef
+      location = "group:../Scripts">
+   </FileRef>
+</Workspace>
