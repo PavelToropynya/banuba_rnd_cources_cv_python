@@ -1,6 +1,6 @@
 # README #
 
-Cources programm
+Courses programm
 It's writabel
 
 https://docs.google.com/document/d/1oBHFy6nObdTrOocNcCqnP-WIDrMoCT3zl-DRo8arwOU/edit?usp=sharing
